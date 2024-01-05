@@ -35,7 +35,6 @@ const page: FC<pageProps> = ({}) => {
                     </div>
                     <Button
                         isLoading={isLoading}
-                        hoverGrow='off'
                         type='button'
                         className='max-w-sm mx-auto w-full'
                         onClick={loginWithGoogle}
