@@ -30,7 +30,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={cn(
-                "w-full h-full",
+                "border",
                 inter.className
             )}>
                 {children}
